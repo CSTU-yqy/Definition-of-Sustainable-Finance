@@ -6,18 +6,22 @@ The folder structure and the usage of each file are as follows:
     |-code
         |-topic_imputation.ipynb # All the source code for textual analysis is applied to raw data obtained from posts in the sustainable finance forum on Reddit, including comments
         |-cleaning_reddit.ipynb # data preprocessing for Reddit data
+
     |-data
         |-Reddit.csv # Washed data processed based on raw data. See ../code/cleaning_reddit.ipynb for details.
     	|-Reddit_raw.csv # Raw and unwashed data obtained from posts in the sustainable finance forum on Reddit, including comments
     	|-stop_words.csv # Customized stop words list. A combination of a stop words list provided by  NLTK and our own understanding of the project.
+
     |-images # folder to store the figures that are preseted in markdown
 
 -twitter
     |-code
         |-topic_imputation.ipynb # All the source code for textual analysis is applied to raw data obtained from posts on Twitter that contain 'sustainable finance' AND 'definition' or '#sustainablefinance' AND 'definition'
         |-cleaning_twitter.ipynb # data preprocessing for Twitter data
+
     |-data
         |-Twitter.csv # Washed data. See ../code/cleaning_twitter.ipynb for more details.
     	|-Twitter_raw.csv # Raw and unwashed data collected from the search query "sustainable finance AND definition" on Twitter.
     	|-stop_words.csv # Customized stop words list. A combination of a stop words list provided by  NLTK and our own understanding of the project.
+
     |-images # folder to store the figures that are preseted in markdown
